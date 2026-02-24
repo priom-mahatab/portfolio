@@ -15,7 +15,7 @@ function Shape() {
 
     return (
         <mesh ref={meshRef}>
-            <icosahedronGeometry args={[2, 1]} />
+            <icosahedronGeometry args={[1.5, 1]} />
             <meshBasicMaterial
                 color="#3b82f6"
                 wireframe
@@ -28,7 +28,7 @@ function Shape() {
 
 export default function Visual3D() {
     return (
-        <div className="w-full h-full">
+        <div className="w-full h-full overflow-hidden">
             <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
                 <ambientLight intensity={0.5} />
                 <pointLight position={[10, 10, 10]} />

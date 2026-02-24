@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="overview"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 lg:px-20 py-20 relative overflow-hidden"
+      className="min-h-screen flex flex-col md:flex-row items-center py-20 relative overflow-hidden"
     >
       {/* Background Decorative Element (The "Blend") */}
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-accent/10 blur-[120px] rounded-full -z-10" />
@@ -30,9 +30,11 @@ export default function Hero() {
             <br />
             <TypeAnimation
               sequence={[
-                "A Software Engineer.",
+                "Software Engineer.",
                 2000,
-                "CS Major @ 2028",
+                "CS Major, 2028.",
+                2000,
+                "St. Edward's University.",
                 2000,
                 "ML Modeling Enthusiast.",
                 2000,
@@ -60,11 +62,8 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* 3D Element Placeholder */}
       <div className="flex-1 w-full h-[400px] md:h-[600px] flex items-center justify-center relative">
-        {/* Initialize Three.js canvas here in the next step */}
         <div className="absolute inset-0 bg-accent/5 blur-[100px] rounded-full" />
-
         <div className="w-full h-full z-10">
           <Visual3D />
         </div>
