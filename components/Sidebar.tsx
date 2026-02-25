@@ -48,13 +48,13 @@ export default function Sidebar() {
 
       {/* Socials at Bottom */}
       <div className="flex flex-col gap-6 text-zinc-600">
-        <a href="https://github.com" target="_blank" className="hover:text-white transition-colors">
+        <a href="https://github.com/priom-mahatab" target="_blank" className="hover:text-white transition-colors">
           <Github size={20} />
         </a>
-        <a href="https://linkedin.com" target="_blank" className="hover:text-white transition-colors">
+        <a href="https://www.linkedin.com/in/mahatab05/" target="_blank" className="hover:text-white transition-colors">
           <Linkedin size={20} />
         </a>
-        <a href="mailto:your@email.com" className="hover:text-white transition-colors">
+        <a href="mailto:zohaeral1603@gmail.com" className="hover:text-white transition-colors">
           <Mail size={20} />
         </a>
       </div>

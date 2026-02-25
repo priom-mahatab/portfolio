@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="overview"
-      className="min-h-screen flex flex-col md:flex-row items-center py-20 relative overflow-hidden"
+        className="flex flex-col md:flex-row items-center py-20 relative overflow-hidden"
     >
       {/* Background Decorative Element (The "Blend") */}
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-accent/10 blur-[120px] rounded-full -z-10" />
@@ -42,7 +42,7 @@ export default function Hero() {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              className="text-zinc-500 font-mono text-3xl md:text-5xl"
+              className="text-zinc-500 font-mono text-3xl md:text-4xl"
             />
           </h1>
           <p className="text-zinc-400 text-lg max-w-lg leading-relaxed mb-10">
@@ -52,12 +52,10 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-6">
-            <button className="px-8 py-3 bg-white text-black font-bold rounded-sm hover:bg-accent hover:text-white transition-all duration-300">
+            <a href="#projects" className="inline-block px-8 py-3 bg-white text-black font-bold rounded-sm hover:bg-accent hover:text-white transition-all duration-300">
               EXPLORE PROJECTS
-            </button>
-            <button className="px-8 py-3 border border-zinc-700 text-zinc-300 font-mono hover:bg-zinc-900 transition-all">
-              VIEW_RESUME.pdf
-            </button>
+            </a>
+            <a  target="_blank" href="https://drive.google.com/file/d/10dFxxROs7Stk1vAYdtYQsVde3b6nEI3U/view?usp=sharing" className="px-8 py-3 border border-zinc-700 text-zinc-300 font-mono hover:bg-zinc-900 transition-all">VIEW RESUME</a>
           </div>
         </motion.div>
       </div>

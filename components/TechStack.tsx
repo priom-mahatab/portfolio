@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import {
-    SiPython, SiJavascript, SiC, SiReact, SiNextdotjs, SiTypescript, SiPhp, SiTailwindcss,
+    SiPython, SiJavascript, SiC, SiAssemblyscript, SiReact, SiNextdotjs, SiTypescript, SiPhp, SiTailwindcss,
     SiNodedotjs, SiExpress, SiFramer, SiLinux, SiGit, SiDocker, SiScikitlearn, SiTensorflow 
 } from 'react-icons/si';
 
@@ -12,6 +12,7 @@ const technologies = [
     { name: 'Java', icon: FaJava, color: "#F89820" },
     { name: 'Tailwind CSS', icon: SiTailwindcss, color: "#06B6D4" },
     { name: 'JavaScript', icon: SiJavascript, color: "#F7DF1E" },
+    { name: 'Assembly', icon: SiAssemblyscript, color: "#000000" },
     { name: 'React', icon: SiReact, color: "#61DAFB" },
     { name: 'Next.js', icon: SiNextdotjs, color: "#000000" },
     { name: 'TypeScript', icon: SiTypescript, color: "#3178C6" },
